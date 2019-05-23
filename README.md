@@ -10,7 +10,7 @@ Tested on toy dataset movielens 100k
 Add three transform layer to yield prediction of ratings
 
 # Evaluation
-Train 0.9 test 0.2
+Train 0.8 test 0.2
 
 SVD dim 50 RMSE 0.931
 
