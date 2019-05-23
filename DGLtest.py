@@ -1,6 +1,8 @@
 import torch
 import dgl
 
+# dgl test
+
 def build_karate_club_graph():
     g = dgl.DGLGraph()
     # add 34 nodes into the graph; nodes are labeled from 0~33

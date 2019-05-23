@@ -77,4 +77,5 @@ for data in testdl:
     prediction = model(data[0].cuda(),data[1].cuda())
 
 loss = lossfn(data[2].float().cuda(),prediction)
-print(loss)
+print(loss) # MSEloss
+

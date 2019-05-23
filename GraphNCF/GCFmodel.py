@@ -6,6 +6,9 @@ from scipy.sparse import vstack
 from scipy import sparse
 import numpy as np
 
+
+# several models for recommendations
+
 # RMSE
 # SVD dim = 50 50 epoch RMSE = 0.931
 # GNCF dim = 64 layer = [64,64,64] nn = [128,64,32,] 50 epoch RMSE = 0.916/RMSE =0.914

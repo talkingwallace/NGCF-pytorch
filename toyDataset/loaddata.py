@@ -1,6 +1,8 @@
 import pandas as pd
 from os import path
 
+# load 100k data
+
 path100k = path.dirname(__file__) + r'\1K'
 
 def load100KRatings():
