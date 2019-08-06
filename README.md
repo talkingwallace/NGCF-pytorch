@@ -18,5 +18,5 @@ SVD dim 50 RMSE 0.931
 
 NCF dim 64 layers [128,64,32,8] RMSE 0.928
 
-NGCF dim 64 layers [64,64,64] RMSE 0.914
+NGCF dim 64 layers [64,64,64] RMSE 0.896
 
