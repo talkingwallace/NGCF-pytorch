@@ -3,7 +3,7 @@ A pytorch toy implementation of Neural Graph Collaborative filtering
 
 link:https://arxiv.org/pdf/1905.08108.pdf
 
-Tested on toy dataset movielens 100k
+Tested on dataset movielens 100k
 
 # Details
 
