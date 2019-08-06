@@ -7,7 +7,7 @@ Tested on dataset movielens 100k
 
 # Details
 
-Add three transform layer to yield prediction of ratings
+Add three transform layer to yield predictions of ratings
 
 No node and message drop out
 
