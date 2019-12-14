@@ -76,7 +76,8 @@ class GNNLayer(Module):
         L1 = laplacianMat + selfLoop
         L2 = laplacianMat.cuda()
         L1 = L1.cuda()
-        inter_feature = torch.mul(features,features)
+        inter_feature = torch.sparse.mm(L2,features)
+        inter_feature = torch.mul(inter_feature,features)
 
         inter_part1 = self.linear(torch.sparse.mm(L1,features))
         inter_part2 = self.interActTransform(torch.sparse.mm(L2,inter_feature))
